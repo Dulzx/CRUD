@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="card-header">Tambah Siswa</div>
                     <div class="card-body">
-                        <form action="simpan-siswa.php" method="POST">
+                        <form action="simpan_siswa.php" method="POST">
                             <div class="form-group">
                                 <label for="nisn">NISN</label>
                                 <input type="text" id="nisn" name="nisn" placeholder="Masukan NISN Siswa" class="form-control">

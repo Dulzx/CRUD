@@ -42,7 +42,7 @@ if ($connection) {
                 <?php unset($_SESSION['connection_error']); ?> <!-- Remove the error message after showing -->
               <?php endif; ?>
               
-              <a href="tambah-siswa.php" class="btn btn-md btn-success" style="margin-bottom: 10px">TAMBAH DATA</a>
+              <a href="tambah_siswa.php" class="btn btn-md btn-success" style="margin-bottom: 10px">TAMBAH DATA</a>
               <table class="table table-bordered" id="myTable">
                 <thead>
                   <tr>
@@ -65,8 +65,8 @@ if ($connection) {
                       <td><?php echo htmlspecialchars($row['nama_lengkap']) ?></td>
                       <td><?php echo htmlspecialchars($row['alamat']) ?></td>
                       <td class="text-center">
-                        <a href="edit-siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-primary">EDIT</a>
-                        <a href="hapus-siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-danger">HAPUS</a>
+                        <a href="edit_siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-primary">EDIT</a>
+                        <a href="hapus_siswa.php?id=<?php echo $row['id_siswa'] ?>" class="btn btn-sm btn-danger">HAPUS</a>
                       </td>
                   </tr>
                   <?php } ?>
